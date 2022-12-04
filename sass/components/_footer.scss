@@ -4,18 +4,36 @@
     padding-bottom: 60px;
   }
   
+.footer-wrapper {
+
+  @media screen and (min-width:$tablet) {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 165px;
+    row-gap: 60px;
+    flex-wrap: wrap; 
+  }
   
+}
   
   .address {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.7;
+    
   }
   
   .address-title {
+
+    display: block;
+    text-align: center;
+    margin-left: auto;
+
+    @media screen and (min-width:$desktop) {
     display: inline-block;
     width: 231px;
+  }
   }
   
   .address .address-title {
@@ -52,9 +70,29 @@
   }
   
   .footer-wrapper {
+    
+    text-align: center;
+
+    @media screen and (min-width:$tablet) {
+     display: flex; 
+    }
+
+    @media screen and (min-width:$desktop){
     display: flex;
     align-items: baseline;
     gap: 70px;
+  }
+  }
+
+  .join {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width:$tablet) {
+      margin: 0;
+      
+      
+    }
   }
   
   .join-text {
@@ -70,6 +108,12 @@
   .join-list {
     display: flex;
     gap: 10px;
+    justify-content: center;
+
+    @media screen and (min-width:$tablet) {
+      display: flex;
+      gap: 10px;
+    }
   }
   
   .join-link {
