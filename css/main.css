@@ -63,7 +63,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1215,13 +1214,18 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   height: 50px;
-  width: 358px;
+  width: 450px;
   padding: 15px 16px;
   color: var(--primary-white-color);
   font-size: 14px;
   line-height: 1.1428571429;
   -webkit-transform: outline var(--transitions-general);
           transform: outline var(--transitions-general);
+}
+@media screen and (min-width: 1200px) {
+  .subscription-input {
+    width: 358px;
+  }
 }
 
 .subscription-input:focus {
