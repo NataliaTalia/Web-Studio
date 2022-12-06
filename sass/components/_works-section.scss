@@ -2,7 +2,8 @@
   display: none;
 
   @media screen and (min-width:$desktop) {
-    display: contents;
+    display: initial;
+    padding-top: 94px;
     
   }
 }

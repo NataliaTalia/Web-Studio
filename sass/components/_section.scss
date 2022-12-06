@@ -3,7 +3,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-
+    @media screen and (min-width: $desktop) {
+      padding-top: 94px;
+      
+    }
   }
 
   .section__title {
