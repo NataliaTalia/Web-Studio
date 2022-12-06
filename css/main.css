@@ -87,6 +87,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .section {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -538,7 +539,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .advantages {
     padding-top: 94px;
-    padding-bottom: 0;
+    padding-bottom: 94px;
   }
 }
 @media screen and (min-width: 768px) {
